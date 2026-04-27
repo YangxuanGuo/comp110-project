@@ -2,28 +2,30 @@
 layout: default
 ---
 
-# UNC COMP110 Survey Analysis: Python Concepts
+# My COMP110 Survey Analysis: LSQS and Understanding
 
 ## 1. Project Summary
-In this analysis, I explored a dataset containing student survey responses related to programming concepts. Specifically, I focused on the relationship between study habits, video views, and performance on topics like **while loops** and **recursion**. The goal was to see how engagement correlates with student understanding.
+In this analysis, I explored the relationship between student engagement with learning tools (LSQS) and their self-reported programming effectiveness and understanding. Using the Seaborn library in Python, I visualized the survey data to uncover patterns in how students learn complex programming concepts.
 
 ---
 
 ## 2. Data Visualizations
 
-### Comparison of Views vs. Likes (Scatter Plot)
-The first visualization shows how student engagement (views) relates to their feedback (likes) across different topics.
-![Scatter Plot](images/chart1.png)
+### Student-Specific LSQS Effectiveness (Scatter Plot)
+This scatter plot (chart1) displays the individual effectiveness scores of LSQS reported by each student in the dataset. It helps identify the spread and variety of student experiences with this learning tool.
+![LSQS Effectiveness Scatter](images/chart1.png)
 
-### Engagement Trends (Line Chart)
-This trend line helps us visualize the growth of student satisfaction as their engagement increases. 
-![Line Chart](images/chart2.png)
+### Programming Effectiveness vs. Concept Understanding (Line Chart)
+This line chart (chart2) illustrates the trend between how effective students found their programming practice and their resulting level of understanding. 
+![Programming vs Understanding Line](images/chart2.png)
+**Conclusion:** There is a clear upward trend—as students find programming practice more effective, their reported understanding level also tends to increase.
 
-### Topic Frequency (Bar Chart)
-This chart provides a simple count of how many students engaged with each specific Python topic.
-![Bar Chart](images/chart3.png)
+### Distribution of Understanding Levels (Histogram)
+This distribution plot (chart3), created with 7 bins, shows how many students fall into each understanding category from 1 to 7.
+![Understanding Distribution Histogram](images/chart3.png)
+**Conclusion:** By analyzing the frequency of these scores, we can determine the "mode" or most common level of understanding in the class, providing insight into the overall academic health of the group.
 
 ---
 
-## 3. Conclusion
-Based on my analysis, student engagement is a strong indicator of concept mastery. Topics that are more complex, like recursion, might require more visual aids or time to reach the same threshold as simpler logic structures. Overall, the data suggests that consistent viewing leads to higher student satisfaction.
+## 3. Final Conclusion
+My analysis demonstrates that hands-on programming effectiveness is a strong predictor of a student's confidence in their understanding. The data supports the idea that consistent, effective practice leads to mastery of Python concepts. These visualizations make it much easier to communicate these learning trends than looking at raw numbers alone.
