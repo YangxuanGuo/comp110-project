@@ -17,12 +17,12 @@ This scatter plot (chart1) displays the individual effectiveness scores of LSQS 
 
 ### Programming Effectiveness vs. Concept Understanding (Line Chart)
 This line chart (chart2) illustrates the trend between how effective students found their programming practice and their resulting level of understanding. 
-![Programming vs Understanding Line](images/chart2.png)
+![Programming vs Understanding Line](images/Chart2.png)
 **Conclusion:** There is a clear upward trend—as students find programming practice more effective, their reported understanding level also tends to increase.
 
 ### Distribution of Understanding Levels (Histogram)
 This distribution plot (chart3), created with 7 bins, shows how many students fall into each understanding category from 1 to 7.
-![Understanding Distribution Histogram](images/chart3.png)
+![Understanding Distribution Histogram](images/Chart3.png)
 **Conclusion:** By analyzing the frequency of these scores, we can determine the "mode" or most common level of understanding in the class, providing insight into the overall academic health of the group.
 
 ---
