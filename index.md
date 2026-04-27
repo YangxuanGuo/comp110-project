@@ -14,6 +14,7 @@ In this analysis, I explored the relationship between student engagement with le
 ### Student-Specific LSQS Effectiveness (Scatter Plot)
 This scatter plot (chart1) displays the individual effectiveness scores of LSQS reported by each student in the dataset. It helps identify the spread and variety of student experiences with this learning tool.
 ![LSQS Effectiveness Scatter](images/chart1.png)
+**Conclusion:** The scatter plot shows that while many students find LSQS highly effective, there is a significant spread across the scores. This variation suggests that different students have diverse learning experiences with the tool, highlighting the importance of personalized learning support.
 
 ### Programming Effectiveness vs. Concept Understanding (Line Chart)
 This line chart (chart2) illustrates the trend between how effective students found their programming practice and their resulting level of understanding. 
@@ -28,4 +29,4 @@ This distribution plot (chart3), created with 7 bins, shows how many students fa
 ---
 
 ## 3. Final Conclusion
-My analysis demonstrates that hands-on programming effectiveness is a strong predictor of a student's confidence in their understanding. The data supports the idea that consistent, effective practice leads to mastery of Python concepts. These visualizations make it much easier to communicate these learning trends than looking at raw numbers alone.
+The data shows that most students believe practice exercises are effective, and that the effectiveness of practice is positively correlated with the level of understanding. This suggests that the idea of “increasing the number of practice exercises” is reasonable. It is particularly worth noting that a small proportion of students still have a low level of understanding (scoring 1–2 points); increasing the number of practice exercises can help them consolidate their knowledge. My recommendation is to introduce optional, ungraded practice exercises accompanied by answer explanations. This way, students who wish to practice can do so, while those who do not will not feel pressured. Of course, this may increase the workload for both teachers and students and add stress for some students. Since my analysis relies primarily on indirect data, a future survey could include a direct question: “Would more ungraded practice exercises help me learn?” (rated 1–7), to gain a more accurate understanding of students’ actual needs.
